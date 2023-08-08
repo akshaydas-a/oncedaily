@@ -13,7 +13,7 @@ export default function Home() {
       <section id="Home" className='min-h-screen'>
         <nav className='py-5 mb-12 flex justify-between'>
           <div>
-            <Image src={logo} height={100} width={100}/>
+            <Image src={logo} height={100} width={100} alt=''/>
           </div>
           <ul className='flex items-center'>
             <li>
@@ -48,7 +48,7 @@ export default function Home() {
             </p>
             <p className='text-md py-2 leading-8 text-gray-800'>
             Join us on our journey of discovery as we delve into the amazing world of science. Subscribe to our channel and hit the 
-            notification bell to stay updated with our latest videos. We can't wait to share our knowledge and enthusiasm with you!
+            notification bell to stay updated with our latest videos. We can&apos;t wait to share our knowledge and enthusiasm with you!
             </p>
           </div>
           <div className="h-100 w-1 bg-gray-500 mx-4"></div>
@@ -77,6 +77,7 @@ export default function Home() {
                 height={100}
                 layout="responsive"
                 src={web1}
+                alt=''
               />
               </a>
             </div>
@@ -88,6 +89,7 @@ export default function Home() {
                 height={100}
                 layout="responsive"
                 src={web2}
+                alt=''
               />
               </a>
             </div>
@@ -99,6 +101,7 @@ export default function Home() {
                 height={100}
                 layout="responsive"
                 src={web3}
+                alt=''
               />
               </a>
             </div>
@@ -110,6 +113,7 @@ export default function Home() {
                 height={100}
                 layout="responsive"
                 src={web4}
+                alt=''
               />
               </a>
             </div>
