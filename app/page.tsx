@@ -13,11 +13,11 @@ export default function Home() {
       <section id="Home" className='min-h-screen'>
         <nav className='py-5 mb-12 flex justify-between'>
           <div>
-            <Image src={logo} height={100} width={100} alt=''/>
+            <Image src={logo} height={100} width={100} alt='logo'/>
           </div>
           <ul className='flex items-center'>
             <li>
-              <a className='bg-logo-blue text-white px-4 py-2 rounded-md ml-8 text-sm lg:text-lg' href="#">Chech out Now!</a>
+              <a className='bg-logo-blue text-white px-4 py-2 rounded-md ml-8 text-sm lg:text-lg' href="https://www.youtube.com/@oncedaily" target='_blank'>Chech out Now!</a>
             </li>
           </ul>
         </nav>
@@ -77,7 +77,7 @@ export default function Home() {
                 height={100}
                 layout="responsive"
                 src={web1}
-                alt=''
+                alt='end of iss'
               />
               </a>
             </div>
@@ -89,7 +89,7 @@ export default function Home() {
                 height={100}
                 layout="responsive"
                 src={web2}
-                alt=''
+                alt='farthest man-made object'
               />
               </a>
             </div>
@@ -101,7 +101,7 @@ export default function Home() {
                 height={100}
                 layout="responsive"
                 src={web3}
-                alt=''
+                alt='fusion'
               />
               </a>
             </div>
@@ -113,21 +113,21 @@ export default function Home() {
                 height={100}
                 layout="responsive"
                 src={web4}
-                alt=''
+                alt='history'
               />
               </a>
             </div>
         </div>
       </section>
 
-      <section id='Contact' className='bg-black -mx-40'>
-        <div className='mt-10 mx-40 text-white'>
+      <section id='Contact' className='bg-black -mx-10 md:-mx-20 lg:-mx-40'>
+        <div className='mt-10 mx-10 text-white md:mx-20 lg:mx-40'>
           <h1 className='text-3xl py-7 font-semibold'>Contact</h1>
           <p className='flex text-md leading-4 gap-2 py-2'><AiFillMail/>4oncedaily@gmail.com</p>
           <p className='flex text-md leading-4 gap-2 py-2 mb-7'><AiFillYoutube/><a href="https://www.youtube.com/@oncedaily" target='_blank'>Checkout our channel</a></p>
         </div>
         <div className="py-5 bg-logo-blue text-white text-center">
-                <p className='flex justify-center text-md leading-4 gap-2 py-2'>Copyright <AiFillCopyrightCircle/>OnceDaily</p>
+                <p className='flex justify-center text-md leading-4 gap-2 py-2'>Copyright <AiFillCopyrightCircle/>2023 OnceDaily. All rights reserved</p>
         </div>
       </section>
     </main>
